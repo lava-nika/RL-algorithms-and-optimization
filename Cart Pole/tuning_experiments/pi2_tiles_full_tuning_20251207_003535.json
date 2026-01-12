@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Lambda=30.0, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 30.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 375.97666666666663,
+    "std_reward": 8.474468846023466,
+    "run_rewards": [
+      364.15,
+      380.21,
+      383.57
+    ]
+  },
+  {
+    "name": "Very high explore",
+    "config": {
+      "population_size": 30,
+      "lambda": 25.0,
+      "elite_ratio": 0.5,
+      "sigma_init": 1.5,
+      "num_tilings": 10,
+      "tiles_per_dim": 5
+    },
+    "mean_reward": 345.27,
+    "std_reward": 81.47861682674788,
+    "run_rewards": [
+      264.77,
+      314.12,
+      456.92
+    ]
+  },
+  {
+    "name": "Elite=0.5, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.5,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 314.52666666666664,
+    "std_reward": 88.91675370192553,
+    "run_rewards": [
+      241.13,
+      439.65,
+      262.8
+    ]
+  },
+  {
+    "name": "Sigma=1.5",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.5,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 303.61,
+    "std_reward": 77.13470857316221,
+    "run_rewards": [
+      203.46,
+      391.13,
+      316.24
+    ]
+  },
+  {
+    "name": "Pop=25, sigma=1.0",
+    "config": {
+      "population_size": 25,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 290.7133333333333,
+    "std_reward": 51.832700317678054,
+    "run_rewards": [
+      309.68,
+      342.55,
+      219.91
+    ]
+  },
+  {
+    "name": "Pop=20, sigma=1.0",
+    "config": {
+      "population_size": 20,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 287.0233333333333,
+    "std_reward": 81.20214460769425,
+    "run_rewards": [
+      190.34,
+      281.7,
+      389.03
+    ]
+  },
+  {
+    "name": "16 tilings, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 16,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 286.06333333333333,
+    "std_reward": 74.34466595227634,
+    "run_rewards": [
+      391.11,
+      229.72,
+      237.36
+    ]
+  },
+  {
+    "name": "Sigma=1.2",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.2,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 273.98,
+    "std_reward": 17.782768813282892,
+    "run_rewards": [
+      288.69,
+      248.96,
+      284.29
+    ]
+  },
+  {
+    "name": "Best from quick tuning",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 266.3833333333334,
+    "std_reward": 107.69940647726686,
+    "run_rewards": [
+      417.9,
+      204.07,
+      177.18
+    ]
+  },
+  {
+    "name": "10 tilings, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 10,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 265.1066666666666,
+    "std_reward": 167.22844780585496,
+    "run_rewards": [
+      91.36,
+      490.93,
+      213.03
+    ]
+  },
+  {
+    "name": "Combined 3: Pop25+Lambda20",
+    "config": {
+      "population_size": 25,
+      "lambda": 20.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 258.6266666666667,
+    "std_reward": 128.63624614478698,
+    "run_rewards": [
+      301.16,
+      84.18,
+      390.54
+    ]
+  },
+  {
+    "name": "12 tilings, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 12,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 256.68,
+    "std_reward": 81.28237980439958,
+    "run_rewards": [
+      147.46,
+      342.33,
+      280.25
+    ]
+  },
+  {
+    "name": "Elite=0.4, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.4,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 256.28333333333336,
+    "std_reward": 7.094064811908291,
+    "run_rewards": [
+      262.96,
+      259.43,
+      246.46
+    ]
+  },
+  {
+    "name": "Combined 2: Lambda20+T12",
+    "config": {
+      "population_size": 15,
+      "lambda": 20.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 12,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 253.55000000000004,
+    "std_reward": 51.51980590025548,
+    "run_rewards": [
+      289.95,
+      290.01,
+      180.69
+    ]
+  },
+  {
+    "name": "Balanced optimal",
+    "config": {
+      "population_size": 20,
+      "lambda": 15.0,
+      "elite_ratio": 0.35,
+      "sigma_init": 1.0,
+      "num_tilings": 10,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 247.35666666666668,
+    "std_reward": 41.7200649834372,
+    "run_rewards": [
+      188.61,
+      281.47,
+      271.99
+    ]
+  },
+  {
+    "name": "Lambda=20.0, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 20.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 245.49,
+    "std_reward": 70.76676762435882,
+    "run_rewards": [
+      229.95,
+      167.64,
+      338.88
+    ]
+  },
+  {
+    "name": "Pop=30, sigma=1.0",
+    "config": {
+      "population_size": 30,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 243.38333333333333,
+    "std_reward": 55.16773352442733,
+    "run_rewards": [
+      276.8,
+      287.73,
+      165.62
+    ]
+  },
+  {
+    "name": "Combined 4: Pop30+T14",
+    "config": {
+      "population_size": 30,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 14,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 238.59333333333333,
+    "std_reward": 31.45701970767239,
+    "run_rewards": [
+      243.82,
+      197.72,
+      274.24
+    ]
+  },
+  {
+    "name": "Lambda=15.0, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 15.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 236.84,
+    "std_reward": 35.51795132980881,
+    "run_rewards": [
+      267.17,
+      187.0,
+      256.35
+    ]
+  },
+  {
+    "name": "14 tilings, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 14,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 231.36333333333334,
+    "std_reward": 128.86889987718354,
+    "run_rewards": [
+      98.01,
+      405.62,
+      190.46
+    ]
+  },
+  {
+    "name": "Aggressive explore",
+    "config": {
+      "population_size": 15,
+      "lambda": 20.0,
+      "elite_ratio": 0.4,
+      "sigma_init": 1.5,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 230.81000000000003,
+    "std_reward": 31.606206141621406,
+    "run_rewards": [
+      226.51,
+      271.49,
+      194.43
+    ]
+  },
+  {
+    "name": "Elite=0.2, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.2,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 211.74666666666667,
+    "std_reward": 14.972900706127575,
+    "run_rewards": [
+      210.95,
+      230.47,
+      193.82
+    ]
+  },
+  {
+    "name": "Combined 1: Pop25+T12",
+    "config": {
+      "population_size": 25,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 12,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 205.45666666666668,
+    "std_reward": 112.62149271885106,
+    "run_rewards": [
+      108.05,
+      363.29,
+      145.03
+    ]
+  },
+  {
+    "name": "5 tiles/dim, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 5
+    },
+    "mean_reward": 204.11666666666667,
+    "std_reward": 50.559652117298256,
+    "run_rewards": [
+      136.59,
+      217.52,
+      258.24
+    ]
+  },
+  {
+    "name": "Dense features",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 16,
+      "tiles_per_dim": 5
+    },
+    "mean_reward": 170.54666666666665,
+    "std_reward": 119.13092862710151,
+    "run_rewards": [
+      52.9,
+      333.81,
+      124.93
+    ]
+  },
+  {
+    "name": "Sigma=0.8",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 0.8,
+      "num_tilings": 8,
+      "tiles_per_dim": 4
+    },
+    "mean_reward": 159.26666666666668,
+    "std_reward": 33.67427933733533,
+    "run_rewards": [
+      120.26,
+      202.43,
+      155.11
+    ]
+  },
+  {
+    "name": "6 tiles/dim, sigma=1.0",
+    "config": {
+      "population_size": 15,
+      "lambda": 10.0,
+      "elite_ratio": 0.3,
+      "sigma_init": 1.0,
+      "num_tilings": 8,
+      "tiles_per_dim": 6
+    },
+    "mean_reward": 138.67,
+    "std_reward": 26.011429539082755,
+    "run_rewards": [
+      116.94,
+      123.83,
+      175.24
+    ]
+  }
+]
